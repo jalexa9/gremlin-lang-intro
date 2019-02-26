@@ -5,7 +5,7 @@ LABEL Description="TinkerPop Gremlin Server and Gremlin Console"
 
 # This Dockerfile only supports Apache TinkerPop 3.3.0 or higher
 ENV APACHE_DOWNLOAD_URL https://archive.apache.org
-ENV TINKERPOP_VERSION 3.3.1
+ENV TINKERPOP_VERSION 3.4.0
 ENV GREMLIN_SERVER_PATH /opt/apache-tinkerpop-gremlin-server-$TINKERPOP_VERSION
 ENV GREMLIN_CONSOLE_PATH /opt/apache-tinkerpop-gremlin-console-$TINKERPOP_VERSION
 
